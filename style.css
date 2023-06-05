@@ -35,7 +35,7 @@ body {
     
 }
 
-.pantalla {
+.screen {
     grid-column: 1 / -1;
     background-color: whitesmoke;
     padding: 1rem 1rem;
@@ -47,7 +47,7 @@ body {
     
 }
 
-.btnnumber, .operator, .btn, .btneraser {
+.btn {
     background-color: lightslategray;;
     color: white;
     border: solid 3px gray;
@@ -71,7 +71,7 @@ body {
     background-color: yellow;
     
 }
-.btneraser{
+#erase{
     grid-column: 2 / 4;
 }
 
@@ -93,11 +93,4 @@ body {
 
 #c:hover, #borrar:hover {
     background-color:lightgrey;
-}
-.operator {
-    background-color: lightsalmon;
-}
-
-.operator:hover {
-    background-color: violet;
 }
