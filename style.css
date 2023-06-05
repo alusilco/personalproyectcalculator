@@ -80,15 +80,15 @@ body {
     
 }
 
-#punto, #sumar, #restar, #dividir, #multiplicar, #igual {
-    background-color: lightblue;
+#igual {
+    background-color: greenyellow;
 }
 
 #igual {
     grid-row: span 1;
 }
 #igual:hover {
-    background-color: yellowgreen;
+    background-color: royalblue;
 }
 
 #punto:hover, #sumar:hover, #restar:hover, #dividir:hover, #multiplicar:hover {
