@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 2rem;
+    
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-decoration-break: clone;
+}
+
+body {
+    background-image: url(img/fondo.png);
+    min-height: 100vh;
+    background-color: beige;
+    display: grid;
+    place-items: center;
+    border-radius: solid 2px;
+}
+
+.calculadora {
+    background-color: navy;
+    color: black;
+    width: 35rem;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    border-radius: solid 2px;
+}
+
+.pantalla {
+    grid-column: 1 / 5;
+    background-color: whitesmoke;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    
+}
+
+.btn {
+    background-color: lightslategray;;
+    color: white;
+    border: solid 3px gray;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+#cero {
+    grid-column: 1 / 4;
+}
+
+#punto, #sumar, #restar, #dividir, #multiplicar, #igual {
+    background-color: lightblue;
+}
+
+#igual:hover {
+    background-color: yellowgreen;
+}
+
+#punto:hover, #sumar:hover, #restar:hover, #dividir:hover, #multiplicar:hover {
+    background-color: lightsalmon;
+}
+
+#c:hover, #borrar:hover {
+    background-color:lightgrey;
+}
