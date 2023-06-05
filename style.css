@@ -7,7 +7,7 @@
     
 }
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -15,7 +15,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px black;
-    color: black;
+    color: darkred;
     text-shadow: 1px 1px 2px black;
     font-family: Arial, Helvetica, sans-serif;
     box-decoration-break: clone;
@@ -73,12 +73,20 @@ body {
 
 #cero {
     grid-column: 1 / 4;
+
+}
+#cero:hover {
+    background-color: yellow;
+    
 }
 
 #punto, #sumar, #restar, #dividir, #multiplicar, #igual {
     background-color: lightblue;
 }
 
+#igual {
+    grid-row: span 1;
+}
 #igual:hover {
     background-color: yellowgreen;
 }
